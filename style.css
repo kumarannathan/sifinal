@@ -553,8 +553,30 @@ footer .column > a:hover{
     font-size: 20px;
 font-weight: 100;
     color: white;
-    font-style: italic;
+    font-style: 
+    italic;
 }
+
+#backToTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 99;
+    font-size: 24px;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #backToTopBtn:hover {
+    background-color: #555;
+  }
+  
 @media (width < 900px){
     .nav-links{
         display: none;
