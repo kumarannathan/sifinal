@@ -22,6 +22,7 @@
             <li class="link"><a href="#">Home</a></li>
             <li id="link1" class="link"><a href="#">Movies</a></li>
             <li id="link2" class="link"><a href="#">TV Shows</a></li>
+            <li id="link2" class="link"><a href="projects.html">Greatest of All Time</a></li>
         </ul>
         <span></span>
     </nav>
@@ -180,6 +181,26 @@
 
 
     <script src="script.js"></script>
+    <button onclick="topFunction()" id="backToTopBtn" title="Go to top">
+        <i class="ri-arrow-up-s-line"></i>
+      </button>
+    <script>
+        // Function to scroll to the top of the page
+        function topFunction() {
+          // Smooth scrolling behavior
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+      
+        // Show or hide the button based on scroll position
+        window.addEventListener('scroll', () => {
+          const backToTopBtn = document.getElementById('backToTopBtn');
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            backToTopBtn.style.display = 'block';
+          } else {
+            backToTopBtn.style.display = 'none';
+          }
+        });
+      </script>
 </body>
 
 </html>
