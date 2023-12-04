@@ -576,6 +576,34 @@ font-weight: 100;
   #backToTopBtn:hover {
     background-color: #555;
   }
+  #skip {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fff; 
+    color: #333; 
+    text-decoration: none;
+    border: 2px solid #333; 
+    border-radius: 5px;
+  }
+
+  #skip:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  }
+
+#skip {
+    position: absolute;
+    left: -500px;
+}
+
+#skip:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  }
+#skip:focus {
+    left: 500px;
+}
+
   
 @media (width < 900px){
     .nav-links{
