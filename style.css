@@ -385,7 +385,7 @@ footer .column > a:hover{
 
 #icon{
     display: block;
-    margin: 0 auto; /* This centers the images horizontally */
+    margin: 0 auto; 
     border-radius: 20px;
     margin-bottom: 5px;
  width: 200px;
@@ -395,24 +395,24 @@ footer .column > a:hover{
 
 #race{
     display: block;
-    margin: 0 auto; /* This centers the images horizontally */
-    width: 120px; /* Adjust the width as needed */
-    height: 40px; /* Adjust the height as needed */
+    margin: 0 auto; 
+    width: 120px; 
+    height: 40px; 
     margin-bottom: 12px;
 
 }
 #courseicon{
     display: block;
-    margin: 0 auto; /* This centers the images horizontally */
-    width: 50px; /* Adjust the width as needed */
-    height: 50px; /* Adjust the height as needed */
+    margin: 0 auto; 
+    width: 50px;
+    height: 50px; 
 
 }
 #skillicon{
     display: block;
-    margin: 0 auto; /* This centers the images horizontally */
-    width: 50px; /* Adjust the width as needed */
-    height: 50px; /* Adjust the height as needed */
+    margin: 0 auto; 
+    width: 50px;
+    height: 50px; 
     margin-bottom: 10px;
 }
 #cmpnts{
@@ -443,8 +443,7 @@ footer .column > a:hover{
 
 }
 
-/* Add this CSS to your existing CSS file */
-/* Styles for the contact form */
+
 .contact-form-container {
     font-weight: lighter;
     display: none;
@@ -457,11 +456,11 @@ footer .column > a:hover{
     align-items: center;
     z-index: 9999;
     background-color: rgba(0, 0, 0, 0.5);
-    backdrop-filter: blur(5px); /* Adjust the blur value for the glass effect */
+    backdrop-filter: blur(5px); 
 }
 
 .contact-form {
-    background-color: rgba(255, 255, 255, 0.8); /* Adjust the transparency as needed */
+    background-color: rgba(255, 255, 255, 0.8); 
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -517,22 +516,22 @@ footer .column > a:hover{
 }
 
 
-/* New styles for the scrollbar */
+
 #progressBarContainer {
     position: fixed;
     top: 0;
     right: 0;
     height: 100%;
-    width: 50px; /* Adjust the width of the scrollbar */
-    background-color: #1d4ed8; /* Adjust the color of the scrollbar */
+    width: 50px;
+    background-color: #1d4ed8; 
     z-index: 999;
 
 }
 
 #progressBar {
     width: 100%;
-    background-color: #18181B; /* Adjust the background color of the progress */
-    transition: height 0.3s ease; /* Smooth transition for the progress bar */
+    background-color: #18181B; 
+    transition: height 0.3s ease; 
 }
 
 #homebtn{
